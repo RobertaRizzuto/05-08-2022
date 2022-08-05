@@ -1,0 +1,20 @@
+button {
+  padding: 15px 25px;
+  border: 0;
+  font-weight: bold;
+  color: rgb(35, 35, 35);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.35s;
+  margin: 10px;
+}
+
+button:hover {
+  filter: saturate(0.6);
+}
+
+button:disabled {
+ 
+  background-color: transparent;
+}
+
