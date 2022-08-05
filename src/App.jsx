@@ -34,7 +34,7 @@ function App() {
     <div className="App">
       <Advice>
         <h3>Advice #{advice.id}</h3>
-        <h1>{advice.advice}</h1>
+        <h1 className="advice-text">{advice.advice}</h1>
         <Button
           onBtnClick={() => dispatch({ type: "Previous" })}
           disabled={id === initialId ? true : false}
